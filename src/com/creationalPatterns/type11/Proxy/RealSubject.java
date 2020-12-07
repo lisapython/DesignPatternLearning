@@ -4,6 +4,6 @@ package com.creationalPatterns.type11.Proxy;
 public class RealSubject implements Subject{
     @Override
     public void doWork() {
-        System.out.println("真正的意图");
+        System.out.println("真正的去干活儿了");
     }
 }

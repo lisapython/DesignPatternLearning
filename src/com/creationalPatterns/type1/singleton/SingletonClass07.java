@@ -1,4 +1,4 @@
-package com.creationalPatterns.singleton.type1;
+package com.creationalPatterns.type1.singleton;
 
 /**
  * 通过静态内部类来实现单例模式

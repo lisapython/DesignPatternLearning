@@ -1,4 +1,4 @@
-package com.creationalPatterns.singleton.type1;
+package com.creationalPatterns.type1.singleton;
 
 /**
  * 双重检查（能解决线程安全问题和懒加载问题）

@@ -1,4 +1,7 @@
-package com.creationalPatterns.singleton.type1;
+package com.creationalPatterns.type1.singleton;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * 饿汉模式（静态常量）
@@ -24,5 +27,6 @@ class SingletonClassTest01{
         System.out.println(ins1==ins2);//true 说明两个对象引用的是同一个内存地址,即【只有一个实例】
         System.out.println(ins1.hashCode());//356573597
         System.out.println(ins2.hashCode());//356573597
+        List list = new ArrayList<>();
     }
 }

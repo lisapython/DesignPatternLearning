@@ -1,4 +1,4 @@
-package com.creationalPatterns.singleton.type1;
+package com.creationalPatterns.type1.singleton;
 
 /**
  * 饿汉模式（静态代码块）

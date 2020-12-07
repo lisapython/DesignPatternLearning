@@ -5,6 +5,7 @@ package com.creationalPatterns.type11.Proxy;
 public class RealSubjectProxy implements Subject{
 
     private RealSubject realSubject;
+
     //建立代理类和目标类的关联关系
     public RealSubjectProxy()  {
         try{
@@ -12,7 +13,6 @@ public class RealSubjectProxy implements Subject{
         }catch (Exception e){
             e.printStackTrace();
         }
-
     }
 
     @Override

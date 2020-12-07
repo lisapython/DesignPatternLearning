@@ -1,4 +1,4 @@
-package com.creationalPatterns.singleton.type1;
+package com.creationalPatterns.type1.singleton;
 
 /**
  * 懒汉模式（线程不安全,同步代码块实现）
